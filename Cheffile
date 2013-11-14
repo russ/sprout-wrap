@@ -35,4 +35,4 @@ cookbook 'homebrew',
   :git => 'git://github.com/clifferson/homebrew-cask-cookbook.git'
 
 cookbook 'workstation-cookbook',
-  :git => '/Users/russ/Projects/workstation-cookbook'
+  :path => '/Users/russ/Projects/workstation-cookbook'

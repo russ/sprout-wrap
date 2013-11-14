@@ -9,17 +9,6 @@ SITE
     yum (2.4.2)
 
 GIT
-  remote: /Users/russ/Projects/workstation-cookbook
-  ref: master
-  sha: f461792c91227c1a207276fc189ddf22b4018770
-  specs:
-    workstation-cookbook (0.1.0)
-      dmg (>= 0.0.0)
-      homebrew (>= 0.0.0)
-      pivotal_workstation (>= 0.0.0)
-      python (>= 0.0.0)
-
-GIT
   remote: git://github.com/clifferson/homebrew-cask-cookbook.git
   ref: master
   sha: 1836e835d2c2957c3414ee3c0627ae1145a37d67
@@ -96,6 +85,15 @@ GIT
     sprout-pivotal (0.1.0)
       dmg (>= 0.0.0)
       sprout-osx-base (>= 0.0.0)
+
+PATH
+  remote: /Users/russ/Projects/workstation-cookbook
+  specs:
+    workstation-cookbook (0.1.0)
+      dmg (>= 0.0.0)
+      homebrew (>= 0.0.0)
+      pivotal_workstation (>= 0.0.0)
+      python (>= 0.0.0)
 
 PATH
   remote: site-cookbooks/meta

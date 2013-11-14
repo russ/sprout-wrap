@@ -1,9 +1,11 @@
 recipes:
 
 # base (required by sprout)
+- workstation-cookbook::remove_bash_profile
 - sprout-osx-base::bash_it
 - pivotal_workstation::create_var_chef_cache
 - sprout-osx-base::homebrew
+- workstation-cookbook::install_dotfiles
 
 # settings
 - pivotal_workstation::sshd_on
@@ -12,6 +14,7 @@ recipes:
 - pivotal_workstation::locate_on
 - sprout-osx-settings::global_environment_variables
 - workstation-cookbook::link_ssh_things
+- workstation-cookbook::install_brew_things
 
 # development (general)
 - sprout-osx-base::workspace_directory
@@ -46,6 +49,7 @@ recipes:
 - workstation-cookbook::rdio
 - workstation-cookbook::istatmenus
 - workstation-cookbook::propane
+- workstation-cookbook::fluid
 
 # apps (editors)
 - sprout-osx-apps::macvim
