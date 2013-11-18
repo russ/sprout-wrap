@@ -28,6 +28,7 @@ recipes:
 - sprout-osx-rbenv::default
 - sprout-osx-apps::imagemagick
 - sprout-osx-apps::node_js
+- workstation-cookbook::elasticsearch
 
 # apps
 - sprout-osx-apps::skype
